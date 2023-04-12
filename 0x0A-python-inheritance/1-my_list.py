@@ -1,5 +1,5 @@
 i#!/usr/bin/python3
-""" The MyList class inherits from list is New"""
+""" The MyList class inherits from list """
 
 
 class MyList(list):
