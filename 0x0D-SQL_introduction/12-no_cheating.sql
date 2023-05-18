@@ -1,6 +1,3 @@
--- Lists all records in the table second_table with a score >= 10 in my MySQL server.
--- Records are ordered by descending score.
-SELECT `score`, `name`
-FROM `second_table`
-WHERE `score` >= 10
-ORDER BY `score` DESC;
+-- updates a value in the database table
+-- updates bobs score to 10
+UPDATE second_table SET `score` = 10 WHERE `name` = "Bob";
