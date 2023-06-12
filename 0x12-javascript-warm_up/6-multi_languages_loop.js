@@ -1,4 +1,5 @@
 #!/usr/bin/node
-const { argv } = require('process');
-const converted = Number(argv[2]);
-if (isNaN(converted)) { console.log('Not a number'); } else { console.log(`My number: ${converted}`); }
+
+const lines = ['JavaScript is amazing', 'Python is cool', 'C is fun'];
+
+for (const line of lines.reverse()) console.log(line);
